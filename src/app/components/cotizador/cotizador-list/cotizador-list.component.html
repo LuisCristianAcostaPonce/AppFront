@@ -1,0 +1,5 @@
+<ul>
+    <li *ngFor="let coti of arrCotizacion()" [routerLink]="['/cotizador', coti._id]">
+        {{coti.client}}
+    </li>
+</ul>>
